@@ -1,13 +1,35 @@
-* {
-    background: black;
-    overflow: hidden;
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
-canvas {
+.banner {
+    width: 100vw;
+    height: 50px;
+}
+
+#container {
     position: relative;
-    top: 50%;
-    left: 50%;
-    margin-left: -50vmin;
-    width: 100vmin;
-    height: 100vmin;
+    /* margin: 20px 0 0 0; */
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    float: left !important;
+    height: 100%;
+}
+
+#menu {
+    width: 13%;
+}
+
+#main {
+    width: 86%;
+}
+
+#full {
+    height: 100%;
+    width: 100%;
 }
