@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.banner {
+    width: 100vw;
+    height: 50px;
+}
+
+#container {
+    position: relative;
+    /* margin: 20px 0 0 0; */
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    float: left !important;
+    height: 100%;
+}
+
+#submenu {
+    width: 13%;
+}
+
+#main {
+    width: 86%;
+}
+
+#full {
+    height: 100%;
+    width: 100%;
+}
