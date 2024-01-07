@@ -1,6 +1,9 @@
 window.onload = ()=>{
-	const queryString = window.location.search;
-	const urlParams = new URLSearchParams(queryString);
-	const product = urlParams.get('product')
-	console.log(product);
+	document.styleSheets[1].disabled = false;
+	document.styleSheets[0].disabled = true;
 }
+
+// window.onload = ()=>{
+// 	document.styleSheets[0].disabled = true;
+// 	document.styleSheets[1].disabled = false;
+// }
