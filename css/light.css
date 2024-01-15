@@ -54,7 +54,7 @@ body {
 }
 
 #menu {
-    overflow: auto;
+    overflow-x: auto;
     padding: 10px;
     position: relative;
     left: 50%;
