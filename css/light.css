@@ -16,6 +16,14 @@ body {
     height: 50px;
 }
 
+.nob{
+    border: none;
+	cursor: pointer;
+	appearance: none;
+	background-color: inherit;
+    font-size: large;
+}
+
 #container::before {
     filter: blur(2px);
     position: absolute;
@@ -105,10 +113,6 @@ ul li {
     position: absolute;
     top: 50px;
     left: -20px;
-}
-
-#menu li:hover .submenu{
-    display: inline-block;
 }
 
 .selection {
