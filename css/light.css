@@ -43,7 +43,9 @@ body {
     position: relative;
     left: 50%;
     transform: translate(-50%,0);
-    height: 100vh;
+    height: fit-content;
+    min-height: 73%;
+    overflow: auto;
     width: 95vw;
 }
 
