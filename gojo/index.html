@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>五條體生成器</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./gojo.jpg">
+</head>
+<body>
+    <div class="container">
+        <h1>五條體生成器</h1>
+        <div class="input-group">
+            <label for="inputA">說話者:</label>
+            <input type="text" id="inputA" placeholder="五條:">
+        </div>
+        <div class="input-group">
+            <label for="inputB">強者:</label>
+            <input type="text" id="inputB" placeholder="宿儺">
+        </div>
+        <div class="input-group">
+            <label for="inputC">沒有甚麼東西</label>
+            <input type="text" id="inputC" placeholder="十種影法術">
+        </div>
+        <div class="input-group">
+            <label for="inputD">死因一:</label>
+            <input type="text" id="inputD" placeholder="時間">
+        </div>
+        <div class="input-group">
+            <label for="inputE">死因二:</label>
+            <input type="text" id="inputE" placeholder="疾病">
+        </div>
+        <button onclick="generateText()">生成文字</button>
+        <div id="output" class="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
