@@ -34,3 +34,9 @@ ${a}安祥的走完了${d}，他彷彿在沉睡中做了一個美夢。夢醒了
             alert('複製到剪貼簿失敗，請手動複製！');
         });
 }
+window.onload = ()=>{
+    const outputDiv = document.getElementById('output');
+    outputDiv.textContent = "我們摯愛的樂團 Ave Mujica，於西元2025年1月23日，悄悄的離開這個音樂圈 ，我們痛徹心扉，就僅僅一眨眼的時間，天人永隔。\n\
+Ave Mujica安祥的走完了4集的樂團人生旅程，他彷彿在沉睡中做了一個美夢。夢醒了，留下陪伴我們成長過程中的點點滴滴，留下我們永恆的追思與感恩。";
+    outputDiv.style.display = 'block';
+}

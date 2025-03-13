@@ -36,3 +36,14 @@ function generateText() {
             alert('複製到剪貼簿失敗，請手動複製！');
         });
 }
+window.onload = ()=>{
+    const outputDiv = document.getElementById('output');
+    outputDiv.textContent = "五條：宿儺太強了\n\
+而且宿儺還沒有使出全力的樣子\n\
+對方就算沒有十影也會贏\n\
+我甚至覺得有點對不起他\n\
+我沒能在這場戰鬥讓宿儺展現他的全部給我\n\
+殺死我的不是時間或疾病\n\
+而是比我更強的傢伙，真是太好了";
+    outputDiv.style.display = 'block';
+}
