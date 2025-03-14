@@ -4,6 +4,7 @@ function generateText() {
     const b = document.getElementById('inputB').value;
     const c = document.getElementById('inputC').value;
     const d = document.getElementById('inputD').value;
+    const e = document.getElementById('inputE').value;
     // 檢查是否所有欄位都已填寫
     if (!a || !b || !c || !d ) {
         alert('請填寫所有欄位！');
@@ -12,8 +13,8 @@ function generateText() {
 
     // 生成文字
     const text = `我是很佩服這個${a}\n\
-TM搞的這個東西真的是剛剛好就是剛剛好怎麼樣\n\
-感覺好像做了這個東西剛剛好就夠${b}\n\
+TM搞的這個${e}真的是剛剛好就是剛剛好怎麼樣\n\
+感覺好像做了這個${e}剛剛好就夠${b}\n\
 哎 這真的是智慧呀你媽的\n\
 真的是剛剛好就夠${b}\n\
 想要${c}不可以想${d} 哎 你別想\n\
