@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>窩不知道生成器</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>窩不知道生成器</h1>
+        <div class="input-group">
+            <label for="inputA">你不知道下一刻...</label>
+            <input type="text" id="inputA" placeholder="會被幹走多少錢">
+        </div>
+        <div class="input-group">
+            <label for="inputB">我只知道的是:</label>
+            <input type="text" id="inputB" placeholder="當你把銀行帳本交給張媽媽的時候">
+        </div>
+        <div class="input-group">
+            <label for="inputC">我們之間的...產生變化</label>
+            <input type="text" id="inputC" placeholder="財務關係">
+        </div>
+        <button onclick="generateText()">生成文字</button>
+        <div id="output" class="output"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
