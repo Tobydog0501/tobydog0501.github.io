@@ -13,7 +13,7 @@ function generateText() {
     // 生成文字
     const text = `你不知道你下一刻會${a}，我告訴你，我也不知道
 我只知道的是${b}的時候
-我們之間的${c}已經產生微妙的變化了`;
+${c}已經產生微妙的變化了`;
 
     // 顯示在畫面上
     const outputDiv = document.getElementById('output');
